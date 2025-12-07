@@ -1,62 +1,129 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Works | Hung Portfolio</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="logo">
-      <a href="./index.html"><img src="./img/logo.png" alt="Logo" /></a>
-    </div>
-    <nav class="nav-links" id="nav-links">
-      <a href="./works.html" class="active">Works</a>
-      <a href="./hobbies.html">Hobbies</a>
-      <a href="./contact.html">Contact</a>
-    </nav>
-    <button class="menu-btn" id="menu-btn">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </button>
-  </header>
-
-  <!-- Work Section -->
-  <section class="works-section">
-    <h1>Work</h1>
-
-    <div class="work-item">
-      <img src="./img/dashboard.jpg" alt="Designing Dashboards">
-      <div class="work-text">
-        <span class="year">2020</span> <span class="tag">Dashboard</span>
-        <h2>Designing Dashboards</h2>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Works | Hoan Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">
+        <a href="./index.html"><img src="./img/logo.png" alt="Logo" /></a>
       </div>
-    </div>
+      <nav class="nav-links" id="nav-links">
+        <a href="./works.html" class="active">Works</a>
+        <a href="./hobbies.html">Hobbies</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menu-btn">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+    </header>
 
-    <div class="work-item">
-      <img src="./img/portrait.jpg" alt="Vibrant Portraits of 2020">
-      <div class="work-text">
-        <span class="year">2018</span> <span class="tag">Illustration</span>
-        <h2>Vibrant Portraits of 2020</h2>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+    <!-- Work Section -->
+    <section class="works-section">
+      <h1>Work</h1>
+
+      <div class="work-item">
+        <div class="work-text">
+          <span class="year">2019 – Now</span>
+          <span class="tag">Healthcare</span>
+          <h2>Healthcare Platform</h2>
+          <p>
+            Developing and maintaining a comprehensive platform for a US-based
+            healthcare company. My work focuses on full-stack development,
+            building secure, scalable features, improving system performance,
+            and collaborating closely with teams to deliver high-quality
+            solutions in a regulated healthcare environment.
+          </p>
+        </div>
       </div>
-    </div>
 
-  </section>
+      <div class="work-item">
+        <div class="work-text">
+          <span class="year">2020–Now</span>
+          <span class="tag">E-commerce · Apps</span>
+          <h2>Custom Shopify Apps & Extensions</h2>
+          <p>
+            Designed and built custom Shopify apps/extensions for multiple
+            stores, including delivery date selection, rescheduling, CSV/XLS
+            reports, SMS & email notifications, slot and delivery management,
+            and advanced checkout UI extensions.
+          </p>
+        </div>
+      </div>
 
-  <script>
-    // Mobile menu toggle
-    const menuBtn = document.getElementById('menu-btn');
-    const navLinks = document.getElementById('nav-links');
-    menuBtn.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-    });
-  </script>
+      <div class="work-item">
+        <div class="work-text">
+          <span class="year">2021</span> <span class="tag">E-commerce</span>
+          <h2>OxStreet Sneaker Marketplace</h2>
+          <p>
+            Rebuilt the OxStreet web platform with Next.js and TypeScript,
+            integrated Algolia search, improved buyer/seller flows (make offer,
+            buy now, save size, promotions), and optimized performance,
+            accessibility, and SEO.
+          </p>
+        </div>
+      </div>
 
-</body>
+      <div class="work-item">
+        <div class="work-text">
+          <span class="year">2022</span>
+          <span class="tag">Automotive · IoT</span>
+          <h2>Aperia Tire Inflation System</h2>
+          <p>
+            Enhanced a system for automatic tire inflation monitoring for
+            tractors and trailers, improving performance with lazy loading and
+            caching, adding role/user/tractor management, and building CSV/PDF
+            reporting tools.
+          </p>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-text">
+          <span class="year">2023</span>
+          <span class="tag">Search · Marketing</span>
+          <h2>Freki Multiservice Search</h2>
+          <p>
+            Developed a search engine platform for property, jobs, cars, and
+            houses. Built a reusable GTM library, led a new Car Price Calculator
+            UI, and contributed to a UI-Stitcher that unified multiple services
+            into one frontend.
+          </p>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-text">
+          <span class="year">2022</span> <span class="tag">Fintech · AML</span>
+          <h2>Artemis Due Diligence Platform</h2>
+          <p>
+            Improved an AML due diligence platform by refactoring legacy Vue.js
+            code into Angular 6, redesigning frontend architecture for
+            scalability, and enhancing responsiveness and modularity for complex
+            screening workflows.
+          </p>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-text">
+          <span class="year">2024</span> <span class="tag">Blockchain</span>
+          <h2>Traceto (T2T) Crypto Platform</h2>
+          <p>
+            Architected and implemented frontend applications in Angular and
+            React for an Ethereum-based platform, built core UI for interacting
+            with smart contracts via Web3.js, and mentored teams on the modern
+            web stack.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js//script.js"></script>
+  </body>
 </html>

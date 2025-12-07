@@ -1,54 +1,53 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hung | Hiep Thanh Secondary School </title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoan | Senior Software Engineer & FIDE Instructor</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <a href="./index.html"><img src="./img/logo.png" /></a>
+      </div>
+      <nav class="nav-links" id="nav-links">
+        <button style="position: absolute; right: 15px;" id="close-menu-btn">x</button>
+        <a href="./works.html">Works</a>
+        <a href="./hobbies.html">Hobbies</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menu-btn">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+    </header>
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="logo">
-      <a href="./index.html"><img src="./img/logo.png" /></a>
-    </div>
-    <nav class="nav-links" id="nav-links">
-      <a href="./works.html">Works</a>
-      <a href="./hobbies.html">Hobbies</a>
-      <a href="./contact.html">Contact</a>
-    </nav>
-    <button class="menu-btn" id="menu-btn">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </button>
-  </header>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Hi, I am Hung<br />Senior Software Engineer & FIDE Instructor</h2>
+        <p>
+          With over 10 years of experience in software engineering, I’ve worked
+          across key domains such as Fintech, E-commerce, Education, and Digital
+          Marketing. I specialize in modern technologies including Python,
+          React, Node.js, and Shopify, and have collaborated with clients in the
+          US, EU, Singapore, and Vietnam.
+        </p>
+        <p>
+          Alongside engineering, I am a certified FIDE School Instructor with
+          strong experience in teaching and coaching chess. I’ve guided students
+          in both rapid and blitz formats, with several earning gold prizes in
+          competitions. I’m passionate about helping learners grow—whether in IT
+          or on the chessboard.
+        </p>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Hi, I am Hung,<br>Hiep Thanh Secondary School </h1>
-      <p>
-I am an 11-year-old student at Hiep Thanh Secondary School, I love programming and badminton. 🏅 Won the Encouragement Prize for Young Informatics in Group D2 - I always want to learn and create more interesting technology products!
-      </p>
-      <a href="#" class="btn">Download Resume</a>
-    </div>
+      <div class="hero-image">
+        <img src="./img/me.jpg" alt="Profile photo" />
+      </div>
+    </section>
+    <script src="./js//script.js"></script>
 
-    <div class="hero-image">
-      <img src="./img/me.jpg" alt="Profile photo">
-    </div>
-  </section>
-
-  <script>
-    // Toggle mobile menu
-    const menuBtn = document.getElementById('menu-btn');
-    const navLinks = document.getElementById('nav-links');
-
-    menuBtn.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-    });
-  </script>
-
-</body>
+  </body>
 </html>

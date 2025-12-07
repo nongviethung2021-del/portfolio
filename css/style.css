@@ -110,8 +110,20 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+#close-menu-btn {
+  display: none;
+  position: absolute;
+    right: 15px;
+    top: 10px;
+    border: 0;
+    background: none;
+    font-size: 20px;
+}
 /* --- Responsive (Mobile) --- */
 @media (max-width: 768px) {
+  #close-menu-btn {
+    display: flex;
+  }
   .nav-links {
     display: none;
     flex-direction: column;
@@ -119,13 +131,14 @@ body {
     background: #f9f9f9;
     width: 100%;
     position: absolute;
-    top: 60px;
+    top: 0;
     left: 0;
     padding: 1rem 0;
   }
 
   .nav-links.active {
     display: flex;
+    padding-top: 40px;
   }
 
   .menu-btn {
